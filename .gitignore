@@ -1,9 +1,14 @@
+.git
+.gradle
+.settings
+bin
+build/c*
+build/d*
+build/r*
+build/s*
+build/t*
+eclipse
+.classpath
+.project
 
-*.log
-.gradle/
-.idea/
-out/
-eclipse/
-*.ipr
-*.iws
-*.iml
+forge*changelog.txt

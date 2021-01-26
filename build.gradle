@@ -1,6 +1,8 @@
 apply plugin: "java"
 apply plugin: "maven"
 
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
 // edit this area only.
 // the build.gradle would have the patttern   minecraft { mappings = "channel_dlVersion" }
 ext.channel = "ru_snapshot" // Без капса
